@@ -4,7 +4,7 @@ const { ObjectId } = require("mongodb");
 //init app & middleware
 
 const app = express();
-const { connectToDb, getDb } = require("./db");
+const { connectToDb, getDb } = require("./db1");
 
 app.use(express.json());
 //db connection

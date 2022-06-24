@@ -1,10 +1,11 @@
-//Local connection
+// Atlas connection
 
 const MongoClient = require("mongodb").MongoClient;
 
 let dbConnection;
 
-const url = "mongodb://127.0.0.1:27017";
+const url =
+  "mongodb+srv://sourav:sourav@cluster0.yizcs.mongodb.net/?retryWrites=true&w=majority";
 const dbName = "bookcollection";
 let db;
 
